@@ -1,0 +1,32 @@
+
+.container{
+    background-color: #EAEAEA;
+}
+.container-product{
+    
+    margin: auto 165px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48px;
+    
+}
+h2{
+    // font-size: 25px;
+    color: #838383;
+    
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    // margin: auto 165px;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}

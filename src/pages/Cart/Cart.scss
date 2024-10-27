@@ -1,0 +1,43 @@
+.container{
+    background-color: #EAEAEA;
+}
+.cart-product{
+    margin: auto 165px;
+    display: flex;
+    flex-direction: column;
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        .total{
+            border-radius: 30px;
+            background-color: #FFFFFF;
+            width: 349px;
+            height: 114px;
+            margin-bottom: 20px;
+    
+            .text{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                color: #000000;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 18.29px;
+            }
+    
+            button{
+                cursor: pointer;
+                border-radius: 30px;
+                background-color: #101010;
+                width: 349px;
+                height: 65px;
+                color: #FFFFFF;
+                font-size: 17px;
+                font-weight: 600;
+                line-height: 20.72px;
+            }
+        }
+    }
+}

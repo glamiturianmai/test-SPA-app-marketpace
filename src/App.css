@@ -1,0 +1,18 @@
+
+
+#root {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+ background-color:#FFFFFF;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto 165px;
+  color:red;
+
+}
